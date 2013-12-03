@@ -15,7 +15,7 @@ config.xml
 
 Changed plot graph G - Average length from `Average Class Length (NCLOC),Average Method Length (NCLOC)` to `Average Class Length (LLOC),Average Function Length (LLOC)`.
 
-This is done because the original template was used with (a different PHPLocTask)[https://github.com/raphaelstolt/phploc-phing/blob/master/PHPLocTask.php] than [we are using](https://raw.github.com/phingofficial/phing/master/classes/phing/tasks/ext/phploc/PHPLocTask.php).
+This is done because the original template was used with [a different PHPLocTask]https://github.com/raphaelstolt/phploc-phing/blob/master/PHPLocTask.php) than [we are using](https://raw.github.com/phingofficial/phing/master/classes/phing/tasks/ext/phploc/PHPLocTask.php).
 
 As a side effect all plugins have now been marked with a version, which is nice.
 
