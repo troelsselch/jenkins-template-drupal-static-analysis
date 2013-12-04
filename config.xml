@@ -16,7 +16,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>wget -O build.xml https://raw.github.com/troelsselch/jenkins-template-drupal-static-analysis/develop/config.xml</command>
+      <command>wget -O build.xml https://raw.github.com/troelsselch/phing-drupal-static-analysis/develop/build.xml</command>
     </hudson.tasks.Shell>
     <hudson.plugins.phing.PhingBuilder plugin="phing@0.13.1">
       <buildFile>build.xml</buildFile>
